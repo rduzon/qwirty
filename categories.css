@@ -1,0 +1,35 @@
+body {
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+}
+
+.categories {
+  flex-basis: 256px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+  flex-shrink: 0;
+  padding: 10px;
+}
+
+.categories a {
+  text-decoration: none;
+  font-family: "Dosis", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  background-color: #44b;
+  color: white;
+  padding: 10px;
+}
+
+nav a:hover {
+  box-shadow: 0 2px 5px -2px black;
+}
+
+.credit-offer {
+  margin-left: 10px;
+}
